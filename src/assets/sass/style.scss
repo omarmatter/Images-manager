@@ -1,0 +1,42 @@
+//
+// Theme style
+//
+
+// Mode
+$mode: default;
+
+// Initialize
+@import "init";
+
+// Components
+@import "./core/components/components";
+@import "components/components";
+
+// Layout
+@import "layout/layout";
+@import "./core/layout/docs/layout";
+
+.select-display-block {
+    display: block;
+}
+.full-width {
+    width: 100%;
+}
+.form-read-only {
+    pointer-events: none;
+
+}
+.table-button-actions-width .text-end {
+    width: 130px;
+}
+.image-in-list {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.page-loader {
+    background: none;
+}
+.card-header-custom {
+    padding: 0!important;
+}
